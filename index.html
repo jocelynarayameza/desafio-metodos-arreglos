@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío métodos de arreglos</title>
+</head>
+
+<body>
+    <h1>Todo List</h1>
+    <hr>
+    <h3>Nueva Tarea</h3>
+    <input id="input" type="text" size="100">
+    <button id="button" style="background-color:rgb(69, 188, 69); color: white;">Agregar</button>
+    <div style="display: flex; align-items:baseline; gap: 50%; ">
+        <div>
+            <div style="display: flex; align-items: center; gap: 5px;">
+                <h3>Total:</h3>
+                <p id="valorTotal">0</p>
+            </div>
+
+            <div style="display: flex; align-items: center; gap: 5px;">
+                <h3 >Realizadas:</h3>
+                <p id="realizadasTotal">0</p>
+            </div>
+        </div>
+
+        <table>
+            <thead >
+                <th style="width: 10em;">Id</th>
+                <th style="width: 10em;">Tareas</th>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+        </table>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
