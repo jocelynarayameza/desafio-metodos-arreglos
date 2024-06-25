@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafío métodos de arreglos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -13,7 +14,7 @@
     <h3>Nueva Tarea</h3>
     <input id="input" type="text" size="100">
     <button id="button" style="background-color:rgb(69, 188, 69); color: white;">Agregar</button>
-    <div style="display: flex; align-items:baseline; gap: 50%; ">
+    <div style="display: flex; align-items:baseline; gap: 30%; ">
         <div>
             <div style="display: flex; align-items: center; gap: 5px;">
                 <h3>Total:</h3>
@@ -21,15 +22,18 @@
             </div>
 
             <div style="display: flex; align-items: center; gap: 5px;">
-                <h3 >Realizadas:</h3>
+                <h3 id="realizadas" >Realizadas:</h3>
                 <p id="realizadasTotal">0</p>
             </div>
         </div>
 
         <table>
             <thead >
-                <th style="width: 10em;">Id</th>
-                <th style="width: 10em;">Tareas</th>
+                <th style="width: 10em; text-align: left;">Id</th>
+                <th style="width: 10em; text-align: left;">Tareas</th>
+                <th style="width: 10em; text-align: left;"></th>
+                <th style="width: 10em; text-align: left;"></th>
+
             </thead>
             <tbody id="tbody">
             </tbody>
